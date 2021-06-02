@@ -1,7 +1,3 @@
-// import './css/style.css';
-
-// import './js/app.js';
-
 
 export default function healthMonitor(level) {
     if (level.health > 50) {
@@ -12,12 +8,3 @@ export default function healthMonitor(level) {
         return "critical";
     }
 }
-
-export function sortHealth(list) {
-    list.sort(function (a, b) {
-        return b.health - a.health;
-    }) 
-    return list;
-}
-
-

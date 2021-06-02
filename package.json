@@ -4,6 +4,7 @@
   "description": "Используйте следующую структуру, чтобы настроить экспорт в бандл:",
   "main": "index.js",
   "dependencies": {
+    "@petrikovandrey/platforms": "^1.0.0",
     "babel-loader": "^8.1.0",
     "core-js": "^3.6.5",
     "webpack": "^4.43.0",
